@@ -14,15 +14,16 @@ code possible to do the work it is designed to do. It must also have tests
 using py.test, and be exposed as a microservice on a REST API 
 with the help of swagger.  
 
-These will be the first "wave" of bullets to be developed: 
+These will be the **first "wave" of bullets** to be developed: 
 
-- markee: CRUD links (bookmarks) on a Mongo collection, supporting 
+- **markee**: CRUD links (bookmarks) on a Mongo collection, supporting 
 optional tags;
 
-- keepee: CRUD notes on a Mongo collection, supporting optional tags 
+- **keepee**: CRUD notes on a Mongo collection, supporting optional tags 
 and versioning;
 
-- timee: a simple time tracker, supporting "start/top" and projects as "tags".
+- **timee**: a simple time tracker, supporting "start/top" 
+and projects as "tags".
 
 And these will be the next ones:
 
