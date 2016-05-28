@@ -20,14 +20,14 @@ A tag will have the following data:
   simplicity, it will not be possible to add tags when a link is created. They
 can otherwise be added after a successful insertion. 
  
-- I must be able to retrieve:
-. list of links (ordered by created_at)
-. list of tags (ordered alphabetically)
-. list of all the links on a single of multiple tags 
+## I must be able to retrieve:
+- list of links (ordered by created_at)
+- list of tags (ordered alphabetically)
+- list of all the links on a single of multiple tags 
 
-- Validations: 
-. links: Should not allow creating/updating  duplicated urls;
-. tags: Should not allow creating/updating duplicated names;
+## Validations: 
+- links: Should not allow creating/updating  duplicated urls;
+- tags: Should not allow creating/updating duplicated names;
 (IMPORTANT: the validations above and all others created 
 must be tests on py.test also).
 
