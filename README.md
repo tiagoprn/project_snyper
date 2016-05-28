@@ -78,8 +78,6 @@ inside its own directory(containing code, docs and the flask app). Keep in
 mind that this project is just an umbrella, so each bullet can be developed/
 used independently. 
  
-- Code that is shareable must be on a "commons" module under this main project 
-directory.
 
 ### For the development of each bullet, follow this process: 
 
