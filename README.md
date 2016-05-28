@@ -58,6 +58,10 @@ application objects to simple types:
 http://stevenloria.com/marshmallow-20-released/ - it can be used as a more
 featureful alternative “json.dumps/loads”. 
 
+- webargs - A library to more easily handle (and auto-document :) 
+parameters/arguments on flask / django / tornado views: 
+https://webargs.readthedocs.org/en/latest/
+
 - mongo (in conjunction with marshmallow below - will avoid MongoEngine unless
   marshmallow is not suitable for this task)
 
@@ -66,7 +70,7 @@ featureful alternative “json.dumps/loads”.
 a bullet, using this schema: https://github.com/membership/membership.db (but
 on MongoEngine). 
 
-- swagger: to document the APIs. 
+- flask-swagger: to document the APIs. 
 
 
 ## Assumptions
